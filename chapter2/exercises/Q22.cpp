@@ -1,24 +1,21 @@
+/* imports */
 #include <iostream>
 using namespace std;
+
+// main function
 int main( ){
-    // variable declaration
-    double savings, expenses;
+    /* variable to store savings and expenses */
+    double savings, expenses; 
 
-    // propmt the user for savings and expenses
-    cout << "enter savings: $";
-    cin >> savings;
-    cout << "enter expenses: $";
-    cin >> expenses;
-
-    // check if savings >= expenses
+    /* control flow */
     if (savings >= expenses){
-        cout << "Solvent"; 
+        cout << "Solvent" << endl;
         savings -= expenses;
         expenses = 0;
     } else {
-        cout << "Bankrupt";
+        cout << "Bankrupt" << endl;
     }
 
-    // return statement
+    /* return statement */
     return (0);
 }

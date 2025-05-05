@@ -1,18 +1,19 @@
 #include <iostream>
 using namespace std;
+
 int main( ){
-    // variable declaration
+    // variable to store score 
     int score;
 
-    // prompt user to input score
+    // prompt user for score
     cout << "please input score: ";
     cin >> score;
 
-    // if-else condition
+    // control statement
     if (score > 100)
-        cout << "High";
+        cout << "High" << endl; 
     else
-        cout << "Low"; 
+        cout << "Low" << endl;
 
     // return statement
     return (0);
